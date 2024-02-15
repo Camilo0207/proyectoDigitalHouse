@@ -1,0 +1,139 @@
+.container{
+    background-color: var(--rs-gray-100);
+    width: 100%;
+    padding: 30px 11px;
+}
+
+.title{
+    color: var(--second-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.detailes_box{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.card_product{
+    width: 100%;
+}
+
+.calendar_box{
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #DFE4EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.calendarContainer{
+    display: flex;
+    justify-content: center;
+}
+.selectSchedule{
+    
+}
+.error_message {
+    color: var(--error-color);
+    text-align: right;
+    padding: 2px;
+    margin: none;
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+} 
+
+.error_input{
+    border: solid thin var(--error-color);
+    background: var(--moz-background-error);
+}
+@media(min-width:340px){
+    
+}
+
+@media(min-width:481px){
+    .container{
+        padding: 30px 32px 30px 30px;
+    }
+    
+}
+
+@media(min-width:769px){
+    .detailes_box{
+        width: 69%;
+        margin-bottom: 0;
+    }
+    
+    .card_product{
+        width: 29%;
+    }
+    .container{
+        padding: 30px 40px;
+    }
+}
+
+
+
+
+
+/* .detailReserveContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--rs-gray-100)
+    
+}
+
+.formCalendarAndSelectReserve{
+    width:70%;
+}
+.formCalendarAndSelectReserve h2{
+    font-size: 20px;
+    color: var(--second-color);
+    font-weight: 700;
+    padding:  0 2rem;    
+
+}
+
+.calendarContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .dataReserveContainer{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin:0.5rem 0;
+} */
+
+/* @media(max-width:860px){
+    .formCalendarAndSelectReserve{
+        width:100%;
+    }
+    .detailReserveContainer{
+        flex-direction: column;
+    }
+} */

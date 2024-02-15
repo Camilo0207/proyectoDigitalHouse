@@ -1,0 +1,786 @@
+{
+  "usersCreated": [
+    {
+      "name": "camilo",
+      "lastname": "sanchez",
+      "email": "camilo@hotmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 1666799043873
+    },
+    {
+      "name": "grupo",
+      "lastname": "uno",
+      "email": "grupouno@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 1666912243883
+    },
+    {
+      "name": "andres",
+      "lastname": "sanchez",
+      "email": "andre@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 1668534673273
+    },
+    {
+      "name": "angie",
+      "lastname": "ortiz",
+      "email": "angie@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 1668535978687
+    }
+  ],
+  "ciudades": [
+    {
+      "id": 1,
+      "departamento": "San Carlos de Bariloche",
+      "pais": "Argentina"
+    },
+    {
+      "id": 2,
+      "departamento": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    {
+      "id": 3,
+      "departamento": "Mendoza",
+      "pais": "Argentina"
+    },
+    {
+      "id": 4,
+      "departamento": "Cordoba",
+      "pais": "Argentina"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "description": "Descripcion para categoria hotel",
+      "imageUrl": "https://i.imgur.com/B9Kuf6S.png",
+      "title": "Hotel"
+    },
+    {
+      "id": 2,
+      "description": "Descripcion para categoria hostel",
+      "imageUrl": "https://i.imgur.com/MTIcDLV.png",
+      "title": "Hostel"
+    },
+    {
+      "id": 3,
+      "description": "Descripcion para categoria hotel",
+      "imageUrl": "https://i.imgur.com/I71nvpQ.png",
+      "title": "Departamentos"
+    },
+    {
+      "id": 4,
+      "description": "Descripcion para categoria hotel",
+      "imageUrl": "https://i.imgur.com/SioaSGq.png",
+      "title": "Bed and breakfast"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Hoteles",
+      "imgUrl": "https://i.imgur.com/B9Kuf6S.png",
+      "results": [
+        {
+          "id": 1,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Hotel ",
+          "numeroEstrella": 2,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": " A 940 m del centro",
+          "imgUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/04/13/16498369774107.jpg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Hotel ",
+          "numeroEstrella": 3,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": " A 940 m del centro",
+          "imgUrl": "https://static1.eskypartners.com/travelguide/vancouver-hotels.jpg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Hotel ",
+          "numeroEstrella": 1,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": " A 940 m del centro",
+          "imgUrl": "https://www.alvarezarguelles.com/wp-content/uploads/sites/2380/nggallery/content//mobile_hoteles_y_apartamentos_02_hoteles_mar_de_plata-copy.jpg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 4,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Hotel ",
+          "numeroEstrella": 5,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": " A 940 m del centro",
+          "imgUrl": "https://content.r9cdn.net/himg/7f/bb/e5/arbisoftimages-645819-SEVCU_MasterSuite_Bedroom_5-image.jpg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hostels",
+      "imgUrl": "https://i.imgur.com/MTIcDLV.png",
+      "results": [
+        {
+          "id": 1,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Hostel",
+          "numeroEstrella": 4,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://cache.marriott.com/content/dam/marriott-renditions/LIMSI/limsi-room-0487-hor-clsc.jpg?interpolation=progressive-bilinear&downsize=378px:*",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Hostel",
+          "numeroEstrella": 3,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkDybZdj6LaNUmW4j5DXnOlVqSGuRm7jheNQ&usqp=CAU",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Hostel",
+          "numeroEstrella": 5,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://media-cdn.tripadvisor.com/media/photo-s/15/cc/d6/a4/sir-toby-s-hostel.jpg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 4,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Hostel",
+          "numeroEstrella": 2,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb5ga1MiT2-8HxjRNf1AlLvdQeFv_6R3wdog&usqp=CAU",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Departamentos",
+      "imgUrl": "https://i.imgur.com/I71nvpQ.png",
+      "results": [
+        {
+          "id": 1,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Departamento",
+          "numeroEstrella": 1,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://proaimg.s3-sa-east-1.amazonaws.com/propiedad/original/624/624660.jpg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Departamento",
+          "numeroEstrella": 3,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://www.ciudaris.com/blog/wp-content/uploads/ventajas-vivir-departamento-03.jpg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Departamento",
+          "numeroEstrella": 5,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://static.tokkobroker.com/pictures/82247253601310963328781842364145640912927430898213283922961994629394667130649.jpg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 4,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Departamento",
+          "numeroEstrella": 4,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/VK7UT6W5NFCQZECMNBHFDNX2VQ.png",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bed and breakfast",
+      "imgUrl": "https://i.imgur.com/SioaSGq.png",
+      "results": [
+        {
+          "id": 1,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Bed and breakfast",
+          "numeroEstrella": 2,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://static.hosteltur.com/app/public/uploads/img/articles/2015/08/01/L_5b14fe49e7f2c_breakfast.jpg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Bed and breakfast",
+          "numeroEstrella": 3,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://cf.bstatic.com/xdata/images/hotel/max500/105274572.jpg?k=7f36e6b7e8976f590f0e5fd2200fd5cb22d391b4207019f9cac4c369214aadd8&o=&hp=1",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Bed and breakfast",
+          "numeroEstrella": 5,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS826RH4zgesOavUJifvYEd2DdU0HzSFRmbKQ&usqp=CAU",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        },
+        {
+          "id": 4,
+          "nombre": "Hermitage Hotel",
+          "categoria": "Bed and breakfast",
+          "numeroEstrella": 4,
+          "descripcion": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+          "ubicacion": "A 940 m del centro",
+          "imgUrl": "https://cdn0.weddingwire.ca/vendor/2507/3_2/960/jpg/pavilion_50_62507-164237759579159.jpeg",
+          "country": "Argentina",
+          "state": "Ciudad Autonoma de Buenos aires",
+          "city": "Buenos Aires",
+          "services": [
+            "kitchen",
+            "television",
+            "airConditioning",
+            "pets",
+            "freeParking",
+            "pool",
+            "wifi"
+          ],
+          "caracteristics": {
+            "houseRules": [
+              "Check-out: 10:00",
+              "No se permiten fiestas",
+              "No fumar"
+            ],
+            "healthAndSecurity": [
+              "se aplican las pautas de distanciaminto social y otras normas relacionadas",
+              "Detector de humo",
+              "Deposito de seguridad"
+            ],
+            "cancellationPolicies": [
+              "Agrega las fechas de tu viaje para obtener los detalles de cancelacion de esta estadia"
+            ]
+          },
+          "otherImages": [
+            "https://i.imgur.com/iRVFdAg.png",
+            "https://i.imgur.com/SLl5k3T.png",
+            "https://i.imgur.com/m7HpyuT.png",
+            "https://i.imgur.com/ReS315b.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

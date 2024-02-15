@@ -1,0 +1,42 @@
+.containerReserveOption{
+    background-color: #FFFF;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 2rem 1rem 2rem 0;
+    border-radius: 10px;
+    border: 1px black solid;
+    border-color: var(--rs-gray-400);       
+}
+
+.dateReserveContainer{
+    background-size:cover;
+    width: 100%;
+    height: auto;
+}
+
+.dateReserveContainer div img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.ubicationReserveDetail{
+    width: 100%;
+    display: flex;
+    gap:0.5rem;
+    padding: 0 0 0.5rem 0;
+}
+
+.checkContainer{
+    width: 100%;
+    border-top: 2px black solid;
+    border-color: var(--rs-gray-400);
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}

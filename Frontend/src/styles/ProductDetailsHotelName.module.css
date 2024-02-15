@@ -1,0 +1,40 @@
+.title_category_box{
+    background: var(--third-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 11px 8px 11px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+.title_category_box .title_category_info{ 
+    font-weight: 700;
+    color: var(--fourth-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_category_box .title_category_info .hotel_category{
+    font-size: 16px;
+    
+} 
+.title_category_box .title_category_info .hotel_name{
+    font-size: 22px;
+    color: var(--fourth-color);
+    margin: 0px;
+
+}
+
+
+@media(min-width:481px){
+    .title_category_box{
+        padding: 9px 32px 8px 30px ;
+    }
+}
+
+@media(min-width:769px){
+    .title_category_box{
+        padding: 10px 40px 8px 40px ;
+    }
+}

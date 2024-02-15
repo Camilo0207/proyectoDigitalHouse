@@ -1,0 +1,83 @@
+variables:
+    AWS_ACCESS_KEY_ID: AKIASDYGBXDRZEP6GHWQ
+    AWS_SECRET_ACCESS_KEY: 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
+  
+
+stages:
+    - build
+    - deploy
+
+cache:
+    paths:
+        - node_modules/
+
+build:
+    stage: build
+    image: node:latest
+    only:
+        - Develop2
+    script:
+        - echo "Creando Proyecto"
+        - cd ./Frontend
+        - pwd
+        - npm install
+        - CI=false npm run build
+
+    artifacts:
+         paths:
+            - ./Frontend/build
+
+
+deploy-frontend:
+    stage: deploy
+    only:
+       - Develop2
+    image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+
+    dependencies:
+        - build
+    script:
+        - echo "subiendo a s3"
+        - aws s3 cp --recursive ./Frontend/build s3://prueba-grupo1
+            
+
+build backend:
+    stage: build
+    image:  maven:3.8.6-openjdk-18
+    script:
+        - echo "Building app..."
+        - cd ./Backend
+        - pwd
+        - mvn clean install
+        - echo "Finished building the app."
+    artifacts:
+         #expire_in: 1 week
+        
+         paths:
+            - ./Backend/target/dhbooking-0.0.1-SNAPSHOT.jar
+    only:
+        - Develop2
+
+
+
+deploy backend:
+    stage: deploy
+    image: alpine:3.11
+    before_script:
+        - apk update && apk add openssh-client bash
+        - mkdir -p ~/.ssh
+        - eval $(ssh-agent -s)
+        - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+        - touch ~/.ssh/config
+        - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+        - ssh-keyscan -H $DEPLOY_SERVER_IP >> ~/.ssh/known_hosts
+    script:
+        - echo "Deploying started..."
+        - ssh ec2-user@$DEPLOY_SERVER_IP "sudo systemctl stop dhbookingapp.service"
+        - scp ./Backend/target/dhbooking-0.0.1-SNAPSHOT.jar ec2-user@$DEPLOY_SERVER_IP:~/dhbooking-app/
+        - ssh ec2-user@$DEPLOY_SERVER_IP "sudo systemctl start dhbookingapp.service"
+        - echo "Finished deploying the app."
+    only:
+        - Develop2
+
+

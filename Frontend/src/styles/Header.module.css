@@ -1,0 +1,233 @@
+.principal_container{
+    position: relative;
+}
+
+.language_box{
+    display: flex;
+    justify-content: end;
+    padding: 3px 11px;
+    background: var(--main-color);
+    align-items: center;
+}
+.language_box a{
+    text-decoration:none;
+    color: white;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.language_box .heart{
+    width: 25px;
+    height: 25px;
+    color: red;
+    margin-right: 5px;
+}
+.language_box a:hover{
+    text-decoration:none;
+    color: white;
+}
+
+.language_box .flag{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.language_box select{
+    background: var(--main-color);
+    /* background: var(--second-color); */
+    color: white;
+    border: none !important;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    box-shadow: none;
+}
+.language_box select option{
+    border: none !important;
+}
+
+
+
+.container{
+    background: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 4px 5px rgba(0, 0, 0, 0.12), 0px 1px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 11px 23px 11px ;
+}
+
+.container a:hover{
+    text-decoration: none;
+}
+.container a:focus{
+    text-decoration: none;
+}
+.container a{
+    text-decoration: none;
+}
+
+.principal_logo{
+    display: flex;
+    align-items: flex-end;
+}
+
+.principal_logo p{
+    display: none;
+    color: var(--third-color);
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.principal_logo p img{
+    cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.principal_menu{
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+}
+.principal_menu .administrationAndMyReserves{
+    display: flex;
+    align-items: flex-end;
+    height: 45px;
+    border-right: solid var(--main-color);
+}
+.principal_menu .administrationAndMyReserves a{
+    width: 100%;
+    text-decoration: none;
+    color: var(--third-color);
+    margin: 0 20px 0 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.principal_menu button{
+    display: none;
+    color:var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    padding: 10px;
+    background: #FFFFFF;
+    cursor: pointer;
+    font-weight: 700;
+    /* padding: 11px 20px 10px 22px;
+    margin-left: 16px; */
+}
+
+.principal_menu img{
+    cursor: pointer;
+}
+
+.dropDown{
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+.info_user .close{
+    text-align: end;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--second-color);
+    cursor: pointer;
+}
+
+.info_user .initials_name{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.info_user .logo{
+    background: var(--second-color);
+    color: var(--fourth-color);
+    font-size: 20px;
+    border-radius: 50%;
+    font-weight: 700;
+    padding: 5px;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.info_user .initials_name .prhase_name_box .user_name{
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.info_user .initials_name .prhase_name_box .prhase_hello{
+    color: gray;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media(min-width:481px){
+    .container{
+        padding: 25px 32px 22px 30px;
+    }
+
+    .principal_menu{
+        width: 46%;
+        /* background: #000; */
+        justify-content: space-between;
+        justify-content: flex-end;
+    }
+
+    .principal_menu a{
+        width: 48%;
+        margin-left: 16px;
+    }
+
+    .principal_menu button{
+        display: initial;
+        /* padding: 10px 35px; */
+        width: 100%;
+    }
+    .principal_menu  img{
+        display: none;
+    }
+    .dropDown{
+        display: none;
+    }
+    .language_box{
+        padding: 3px 32px 3px 30px;
+    }
+    .language_box a{
+        margin-right: 40px;
+    }
+}
+
+@media(min-width:769px) {
+    .container{
+        padding: 25px 40px ;
+    }
+    .principal_logo p{
+        display: initial;
+    }
+    .principal_menu button{
+        padding: 10px 54px;
+    }
+    .language_box{
+        padding: 3px 40px;
+    }
+}
+
+
+
+/* @media(min-width:1280px) and (orientation:landscape){
+
+} */

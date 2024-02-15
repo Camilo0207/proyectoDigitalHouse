@@ -1,0 +1,33 @@
+.container .main{
+    background: #eeeef1;
+    padding: 25px 0 25px 0;
+    
+}
+.container .main h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding:  0 11px;
+    color: var(--second-color);
+}
+
+@media(min-width:340px){
+    
+}
+
+@media(min-width:481px){
+    .container .main{
+        padding: 38px 32px 38px 30px;
+    }
+    .container .main h2{
+        font-size: 24px;
+        font-weight: 700;
+        padding:  0;
+    }
+}
+
+@media(min-width:769px){
+    .container .main{
+        padding: 44px 40px;
+    }
+    
+}

@@ -1,0 +1,84 @@
+
+.scheduleContainer {
+    width: 100%;
+    /* margin: 0 2rem 2rem 2rem; */
+    padding: 20px 13px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    color: var(--third-color);
+    font-weight: 700;
+    background-color: #FFFF;
+    border-radius: 8px;
+}
+
+.confirmScheduleContainer{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+.selectScheduleBox{
+    width: 100%;
+
+}
+
+.selectSchedule{
+    width: 100%;
+    border-style: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+} 
+ 
+
+.labelSelectSchedule{
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+
+.confirmScheduleText{
+    font-size: 12px;
+}
+
+
+.error_message {
+    color: var(--error-color);
+    text-align: right;
+    padding: 2px;
+    margin: none;
+    font-size: 12px;
+    font-weight: 700;
+} 
+
+.error_input{
+    border: solid thin var(--error-color);
+    background: var(--moz-background-error);
+}
+
+
+@media(min-width:340px){
+    
+}
+
+@media(min-width:481px){
+    .selectScheduleBox{
+        width: 50%;
+    }
+    .selectSchedule{
+        width: 100%;
+    }
+    .labelSelectSchedule{
+        font-size: 14px;
+    }
+    .confirmScheduleText{
+        font-size: 14px;
+    }
+}
+
+@media(min-width:769px){
+    
+}

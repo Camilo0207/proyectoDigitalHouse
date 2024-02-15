@@ -1,0 +1,53 @@
+.politics h2{
+    font-size: 20px;
+    color: var(--second-color);
+    font-weight: 700;
+    margin-left: 11px;
+}
+
+.politics .politics_caracteristics{
+    border-top: solid thin var(--main-color);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 11px;
+}
+.politics .politics_caracteristics div{
+   width: 100%;
+   padding: 0 5px;
+}
+.politics .politics_caracteristics div h3{
+    font-size: 17px;
+    color: var(--second-color);
+    font-weight: 700;
+}
+.politics .politics_caracteristics div li{
+   list-style: none;
+   width: 100%;
+   padding: 12px 0;
+}
+
+
+@media(min-width:481px){
+    .politics h2{
+        margin-left: 30px;
+    }
+    .politics .politics_caracteristics{
+        padding: 20px 32px 20px 30px;
+    }
+    .politics .politics_caracteristics div{
+        width: 50%;
+    }
+}
+
+@media(min-width:769px){
+    .politics h2{
+        margin-left: 40px;
+    }
+    .politics .politics_caracteristics div{
+        width: 25%;
+     }
+     .politics .politics_caracteristics{
+        padding: 20px 40px;
+    }
+}

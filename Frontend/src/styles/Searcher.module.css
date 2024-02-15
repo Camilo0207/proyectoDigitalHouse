@@ -1,0 +1,194 @@
+.container {
+  background: var(--third-color);
+  display: flex;
+  flex-direction: column;
+  padding: 28px 11px 11px 11px;
+  align-items: center;
+}
+
+.container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--fourth-color);
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.container .title h2 {
+  font-size: 23px;
+  margin-right: 5px;
+  font-weight: 700;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.options_destiny,.btn_submit{
+  width: 100%;
+}
+
+.options_destiny{
+  background: var(--third-color);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.options_destiny .info_destiny{
+  background: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  padding: 7px 7px 7px 10px ;
+  display: flex;
+  align-items: center;
+}
+.options_destiny .info_destiny img{
+  margin-right: 10px;
+}
+
+.options_destiny ul{
+  position: absolute;
+  width: 100%;
+  top: 42px;
+  left: 0px;
+  z-index: 999;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.options_destiny ul li{
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.options_destiny ul li:hover{
+  background: var(--main-color);
+}
+.options_destiny ul li img{ 
+  width: 18px;
+  height: 26px;
+  margin-right: 20px;
+}
+
+.options_destiny ul li div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 0;
+  width: 100%;
+}
+
+.options_destiny ul li div p{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.options_destiny ul li div .state_name{
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+.options_destiny ul li div .country_name{
+  color: var(--third-color);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container form input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container form .calendar {
+  font-size: 14px;
+  margin: 9px 0;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .container form .calendar div{
+  display: none;
+} */
+
+.container form .btn_submit input{
+  background: var(--main-color);
+  color: var(--fourth-color);
+  cursor: pointer;
+}
+.error{
+  color: white;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.container form select,input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+@media (min-width: 381px){
+  .container .title h2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 481px) {
+  .container {
+    padding: 16px 32px 26px 30px;
+  }
+  .container .title {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container .title h2 {
+    font-size: 23px;
+  }
+  
+  .container form {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .options_destiny .info_destiny{
+    padding: 5px 6px 5px 10px;
+  }
+  .container form .calendar,.options_destiny {
+    width: 36%;
+    margin: 0;
+  }
+  .container form .btn_submit {
+    width: 25%;
+  }
+}
+
+@media (min-width: 769px) {
+  .container {
+    padding: 16px 78px 26px 75px;
+  }
+
+  .container .title h2 {
+    font-size: 30px;
+  }
+
+  .container form .btn_submit {
+    width: 18%;
+  }
+
+  .container form .calendar,.options_destiny{
+    width: 40%;
+    margin: 0;
+  }
+}

@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --main-color: #1dbeb4;
+  --second-color: #383b58;
+  --third-color: #545776;
+  --fourth-color: #f3f1ed;
+
+  --error-color:red;
+  --moz-background-error:#ff000009;
+  --background-main:#F9F9F9;
+
+
+  /* --main-color:#F0572D;
+    --second-color:#31363F;
+    --third-color:#191B1D;
+    --fourth-color:#DFE4EA; */
+
+  /* --main-color:#FBC02D;
+    --second-color:#263238;
+    --third-color:#607D8B;
+    --fourth-color:#FFFBE2; */
+}
+
+main {
+	max-width: 1000px;
+	/* margin: 50px auto; */
+	overflow: hidden;
+  /* max-height: 200px; */
+}
+.error_input{
+  border: solid thin var(--error-color);
+  background: var(--moz-background-error);
+}
+.CategoriesItem_link__MAmuJ:hover{
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.link:hover{
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.Categories_container__NKTk-:hover{
+  text-decoration: none;
+  text-decoration-line: none;
+}

@@ -1,0 +1,249 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 100%;
+    border: 1px solid #DFE4EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 24px 0 0 0;
+    min-height: 100%;
+}
+
+/* .main_box{
+    background: yellow;
+    
+} */
+
+.titleReserveDetail{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--second-color);
+    margin:0 0 10px 10px;
+}
+
+.image{
+    width: 100%;
+}
+
+.imgDataReserve{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.dateReserveContainer{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    /* background: #000; */
+    height: 80%;
+}
+.category{
+    color: #9b9dac;
+    font-weight: 700;
+    font-size: 14px;
+}
+.hotel_name{
+    color: var(--second-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.ubicationReserveDetail{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #BEBEBE;
+    padding: 13px 0;
+}
+.ubicationReserveDetail img{
+    width: 10px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.checkContainer{
+    width: 100%;
+    border-bottom: 1px solid #BEBEBE;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    padding: 13px 0;
+}
+.checkContainer span{
+    font-size: 16px;
+    color: #4F4F50;
+}
+
+.btnConfirmReserve{
+    width: 100%;
+    padding: 14px;
+    color: #FFFF;
+    background-color:#1DBEB4;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    margin-top: 30px;
+} 
+
+
+.stars{
+    display: flex;
+}
+.stars img{
+    width: 14px;
+    height: 14px;
+}
+@media(min-width:340px){
+    
+}
+
+@media(min-width:481px){
+    .container{
+        padding: 24px 22px 36px 29px;
+    }
+    .titleReserveDetail{
+        margin: 0;
+        font-size: 20px;
+    }
+    .main_box{
+        display: flex;
+    }
+    .dateReserveContainer{
+        width: 50%;
+        padding: 0 0 0 15px;
+        /* background: #000; */
+        height: inherit;
+    }
+    .image{
+        width: 50%;
+        min-height: 100%;
+    }
+    .image .imgDataReserve{
+        height: 100%;
+    }
+    
+}
+
+@media(min-width:769px){
+    .container{
+        padding: 22px 0 0 0;
+    }
+    .main_box{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .dateReserveContainer{
+        width: 100%;
+        padding: 26px 20px 16px 24px;
+        height: 100%;
+    }
+    .image{
+        width: 100%;
+        min-height: 280px;
+    }
+    .image .imgDataReserve{
+        min-height: 280px;
+    }
+    
+    .titleReserveDetail{
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--second-color);
+        margin:0 0 18px 21px;
+    }
+    .hotel_name{
+        font-size: 24px;
+    }
+    .ubicationReserveDetail{
+        
+        border-bottom: 1px solid #BEBEBE;
+        padding: 17px 0 37px 0;
+    }
+    .checkContainer{
+        
+        padding: 18px 0;
+    }
+    .btnConfirmReserve{
+        margin-top: 32px;
+    } 
+}
+
+
+
+
+/* .detailReserveContainer{
+  
+   width: 30%;
+}
+
+.dateReserveContainer{
+    width: 100%;
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF;
+    padding: 1.5rem
+}
+
+.dateReserveContainer h2{
+    text-align: left;
+}
+
+.dateReserveContainer img{
+    width: 100%;
+    
+}
+
+.titleReserveDetail{
+    background-color: #FFF;
+    font-size: 20px;
+    color: var(--second-color);
+    font-weight: 700;
+    padding:  0 2rem;    
+}
+
+.imgDataReserve{
+    width: 100%;
+    object-fit: cover;
+}
+
+.ubicationReserveDetail{
+    width: 100%;
+    display: flex;
+    gap:0.5rem;
+    padding: 0 0 2rem 0;
+}
+
+.ubicationReserveDetail img{
+    width: 0.8rem;
+    height: auto;
+ 
+}
+
+.ubicationReserveDetail p{
+    font-weight: 700;
+}
+
+.checkContainer{
+    width: 100%;
+    padding: 2rem 1rem;
+    border-top: 2px black solid;
+    border-color: var(--rs-gray-400);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.btnConfirmReserve{
+    width: 100%;
+    padding: 1rem;
+    color: #FFFF;
+    background-color:#1DBEB4;
+    border-radius: 10px
+} 
+*/

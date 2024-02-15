@@ -1,0 +1,38 @@
+
+.principal_hotel_image{
+    width: 49.5%;
+}
+.principal_hotel_image img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+.others_hotel_images{
+    width: 49.5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    position: relative;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+}
+.others_hotel_images div{
+    width: 98%;
+    height: 98%;
+}
+
+.others_hotel_images p{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.others_hotel_images div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}

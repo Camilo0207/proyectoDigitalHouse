@@ -1,0 +1,68 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    background-color: #EEEEF1;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .footerContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+.container{
+    background: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--fourth-color);
+    padding: 23px 19px 19px 19px;
+    
+}
+
+.container p{
+    padding: 5px 0;
+}
+
+.container div{
+    display: none;
+}
+.container div img{
+    margin-left: 30px;
+}
+
+.logo{
+    width: 1.5rem
+}
+
+
+@media(min-width:481px){
+    .container{
+    padding: 23px 32px ;
+
+    }
+    .container div{
+        display: initial;
+        display: flex;
+        align-items: center;
+
+    }
+}
+
+
+
+@media(min-width:769px) and (orientation:landscape){
+    .container{
+        padding: 25px 40px ;
+    }
+    
+}
+
+
+
+@media(min-width:1280px) and (orientation:landscape){
+
+}

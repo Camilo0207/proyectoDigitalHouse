@@ -1,0 +1,131 @@
+
+
+.head_menu{
+    background: var(--main-color);
+    height: 25%;
+    padding: 12px 10px 10px 14px;
+}
+
+
+.head_menu .icon_close{
+    height: 30%;
+}
+
+.head_menu .icon_close p{
+    cursor: pointer;
+    width: fit-content;
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--fourth-color);
+}
+
+.head_menu .user_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 70%;
+}
+
+.head_menu .user_info .initials_name{
+    background: var(--fourth-color);
+    padding: 5px;
+    border-radius: 50%;
+    margin-bottom: 9px;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.head_menu .user_info .message_menu{
+    color: var(--fourth-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+.head_menu .user_info .user_name{
+    color: var(--second-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main_menu{
+    height: 65%;
+    background: var(--fourth-color);
+    padding: 0 19px 0 19px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.main_menu p{
+    text-align: end;
+    padding: 23px 0;
+    cursor: pointer;
+}
+
+.main_menu .options_no_login{
+    /* background: blue; */
+    width: 100%;
+}
+.main_menu .options_no_login .new_account_message{
+    border-bottom: solid 1px var(--third-color);
+    /* background: #000; */
+}
+    
+.main_menu .close_session{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-items: flex-end; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main_menu .no_admin{
+    justify-content: space-between;
+}
+
+.main_menu .close_session p{
+    width: 100%;
+    border-bottom: solid 1px var(--third-color);
+    cursor: auto;
+    padding-bottom: 4px;
+}
+.main_menu .close_session .administration{
+    margin-top: 23px;
+    width: 100%;
+    cursor: pointer;
+    text-align: end;
+    text-decoration: none;
+    color: var(--second-color);
+    font-weight: 700;
+    border: none;
+}
+.main_menu .close_session span{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+
+.footer_menu{
+    height: 10%;
+    background: var(--fourth-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.footer_menu img{
+    margin-left: 18px;
+}
+
+
+

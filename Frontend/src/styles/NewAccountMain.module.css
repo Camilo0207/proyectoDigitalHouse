@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .newAccount_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    width: 80%;
+    /* background: #000; */
+}
+
+.container .newAccount_box h3{
+    color: var(--main-color);
+    font-size: 24px;
+    height: fit-content;
+    /* margin-bottom: 47px; */
+}
+.container .newAccount_box p{
+    font-size: 12px;
+}
+
+.container .newAccount_box .message_box{
+    background: #6ebe3f;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.container .newAccount_box .message_box p{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.container .newAccount_box .message_box .icon_message{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    color: green;
+}
+.container .newAccount_box .warning_box{
+    background: #fae0e0;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.container .newAccount_box .warning_box p,.icon{
+    color: #b00020;
+}
+.container .newAccount_box .warning_box p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.container .newAccount_box .warning_box .icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+@media(min-width:481px){
+    .container .newAccount_box{
+    width: 50%;
+    }
+    .container .newAccount_box h3{
+    font-size: 28px;
+    }
+}
+
+@media(min-width:769px) {
+    .container .newAccount_box{
+        width: 38%;
+    }
+}

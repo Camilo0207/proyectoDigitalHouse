@@ -1,0 +1,29 @@
+.products_box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.button_next_prev{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_next_prev h4{
+    color: white;
+}
+.icon{
+    color: var(--main-color);
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+@media(min-width:481px){
+    .button_next_prev h4{
+        color: var(--second-color);
+    }
+}
